@@ -62,3 +62,8 @@ INSERT INTO visits(id,pet_id,visit_date,description) VALUES (2, 8, '2013-01-02',
 INSERT INTO visits(id,pet_id,visit_date,description) VALUES (3, 8, '2013-01-03', 'neutered');
 INSERT INTO visits(id,pet_id,visit_date,description) VALUES (4, 7, '2013-01-04', 'spayed');
 
+INSERT INTO vaccines(id, name, pet_type_id, price) VALUES (1, 'Anti-rabid', 2, 50.0);
+INSERT INTO vaccines(id, name, pet_type_id, price) VALUES (2, 'Covid19 for Cats', 1, 1200.5);
+
+INSERT INTO vaccinations(id, date, vaccinated_pet_id, vaccine_id) VALUES (1, '2021-12-08', 1, 2);
+INSERT INTO vaccinations(id, date, vaccinated_pet_id, vaccine_id) VALUES (2, '2021-10-08', 3, 1);
